@@ -44,3 +44,15 @@
 .demo-back a{font-size:13px;font-weight:800;color:#1e5ecb}
 @media(max-width:900px){.demo-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.demo-grid{grid-template-columns:1fr}.demo-hero{padding-top:55px}.demo-card{min-height:auto}}
+
+/* Ameera Series additions */
+.ameera-series-card{border-color:#c7d9f5;background:linear-gradient(180deg,#fafdff,#fff)}
+.ameera-series-card h3 span{color:#2563eb}
+.ameera-series-price{border-color:#c7d9f5;background:linear-gradient(180deg,#fafdff,#fff)}
+@media(max-width:600px){
+  .product-grid,.pricing-grid{grid-template-columns:1fr}
+}
+
+/* Ameera Series pricing: match the standard product price hierarchy */
+.ameera-series-price .price{white-space:nowrap}
+.ameera-series-price .price small{font-size:.42em;font-weight:500;color:#98a2b3}

@@ -1,8 +1,9 @@
-/* URL DEMO 3 PRODUK AMEERA */
+/* URL DEMO PRODUK AMEERA — URL Ameera Series dapat diganti setelah deployment. */
 const DEMO_URLS = {
   lite: 'https://ameeralite.freehosting.dev/',
   standard: 'https://ameerapro.freehosting.dev/',
-  business: 'https://ameerabusines.freehosting.dev/'
+  business: 'https://ameerabusines.freehosting.dev/',
+  series: 'https://ameeraseries.freehosting.dev/'
 };
 
 document.querySelectorAll('[data-demo]').forEach(button => {
